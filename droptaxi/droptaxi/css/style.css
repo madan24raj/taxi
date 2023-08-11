@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+
+:root {
+    --navbg: #FFEDBC;
+    --navtext: #E7A800;
+    --texthighlight: #142F43;
+    --textcolor: #949494;
+    --textType: 'Inter', sans-serif;
+    --textBold: 700;
+    --textSemiBold: 600;
+    --textMedium: 500;
+    --fontsize: 1rem;
+    --mobfontsize: 0.6rem;
+  }
+
+body{
+    font-family: var(--textType);
+    font-weight: var(--textMedium);
+    font-size: var(--fontsize);
+}
+
+.navbar-bgcolor{
+    background-color: var(--navbg);
+}
+.navbar-light .navbar-toggler{
+    color: var(--navbg);
+    border-color:  var(--navtext);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: var(--navtext);
+}
+.active, .navbar-brand {
+    color: var(--texthighlight);
+}
+
+.trip-active{
+    border-top: 5px solid #FFC939;
+}
+.trip-deactive{
+    background-color: var(--navbg);
+    color: var(--navtext);
+}
+.tab-display{
+    box-shadow: 4px 4px 15px 3px rgba(67, 70, 75, 0.2);
+    border-radius: 5px;
+}
+
+.trip-margin{
+    border-right: 2px solid #fff;
+}
+
+.tab-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-text > p {
+        margin-bottom: 0;
+        padding: 0.5rem;
+}
+
